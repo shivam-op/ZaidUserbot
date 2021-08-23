@@ -1,4 +1,4 @@
-python-decoupl
+python-decouple
 telethon
 cryptg
 heroku3
