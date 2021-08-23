@@ -48,3 +48,33 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     UstaD10.run_until_disconnected()
 
+if __name__ == "__main__":
+    UstaD11.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD12.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD13.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD14.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD15.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD16.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD17.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD18.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD19.run_until_disconnected()
+
+if __name__ == "__main__":
+    UstaD20.run_until_disconnected()
+
