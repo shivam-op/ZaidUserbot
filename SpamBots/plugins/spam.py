@@ -86,6 +86,9 @@ for x in SUDO_USERS:
 )
 @UstaD20.on(
     events.NewMessage(pattern="^/spam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+
+
 
 async def spam(e):
     if e.sender_id in SMEX_USERS:
