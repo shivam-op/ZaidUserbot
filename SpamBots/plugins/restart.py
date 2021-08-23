@@ -112,5 +112,45 @@ async def restart(e):
             await UstaD10.disconnect()
         except Exception:
             pass
+        try:
+            await UstaD11.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD12.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD13.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD14.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD15.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD16.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD17.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD18.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD19.disconnect()
+        except Exception:
+            pass
+        try:
+            await UstaD20.disconnect()
+        except Exception:
+            pass
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
