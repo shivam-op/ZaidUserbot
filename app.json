@@ -70,6 +70,55 @@
             "value": ""
             
         },
+        "BOT_TOKEN11": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "BOT_TOKEN12": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+
+        },
+        "BOT_TOKEN13": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+           
+        },
+        "BOT_TOKEN14": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN15": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+           
+        },
+        "BOT_TOKEN16": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN17": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN18": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN19": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
+        "BOT_TOKEN20": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+            
+        },
         "SUDO_USERS": {
             "description": "Owner Id",
             "value": ""
