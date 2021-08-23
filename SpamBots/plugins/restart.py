@@ -38,6 +38,36 @@ for x in SUDO_USERS:
 @UstaD10.on(
     events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
 )
+@UstaD11.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD12.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD13.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD14.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD15.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD16.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD17.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD18.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD19.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD20.on(
+    events.NewMessage(pattern="^/restart", func=lambda e: e.sender_id in SMEX_USERS)
+)
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = " 🤖𝐑𝐄𝐒𝐓𝐀𝐑𝐓𝐄𝐃🤖\n🔰𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓 𝐓𝐈𝐋𝐋 𝐈𝐓 𝐑𝐄𝐁𝐎𝐎𝐓𝐒...."
