@@ -1,5 +1,5 @@
 
-import sys
+import sy
 import logging
 import importlib
 from telethon import events
