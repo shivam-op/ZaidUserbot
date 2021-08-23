@@ -66,6 +66,36 @@ def get_readable_time(seconds: int) -> str:
 @UstaD10.on(
     events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
 )
+@UstaD11.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD12.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD13.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD14.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD15.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD16.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD17.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD18.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD19.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD20.on(
+    events.NewMessage(pattern="^/ping", func=lambda e: e.sender_id in SMEX_USERS)
+)
 async def ping(e):
         start = datetime.now()
         text = "Pong!"
