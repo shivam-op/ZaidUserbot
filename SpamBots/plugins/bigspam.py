@@ -57,6 +57,36 @@ for x in SUDO_USERS:
 @UstaD10.on(
     events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
 )
+@UstaD11.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD12.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD13.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD14.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD15.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD16.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD17.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD18.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD19.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
+@UstaD20.on(
+    events.NewMessage(pattern="^/bigspam", func=lambda e: e.sender_id in SMEX_USERS)
+)
 async def spam(e):
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None)
