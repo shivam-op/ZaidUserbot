@@ -6,4 +6,4 @@ RUN pip3 install -U pip
 RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
-CMD python3 SpamBots
+CMD python3 __main__.py
