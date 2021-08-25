@@ -9,4 +9,4 @@ RUN npm i -g npm
 RUN mkdir /app/
 WORKDIR /app/
 COPY . /app/
-CMD python3 -m main.py
+CMD python3 -m SpamByBots
