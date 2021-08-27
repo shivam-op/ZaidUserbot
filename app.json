@@ -1,94 +1,81 @@
 {
-    "name": "Spam Bot 2.0",
-    "description": "Best Spamming Bots",
-    "logo": "https://telegra.ph/file/8626f33867fc155eaa404.jpg",
+    "name": "𝐙𝐚𝐢𝐝 𝐁𝐥𝐚𝐜𝐤 𝐔𝐬𝐞𝐫𝐛𝐨𝐭",
+    "description": "ᴢᴀɪᴅ ʙʟᴀᴄᴋ ᴜꜱᴇʀʙᴏᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴛᴇʟᴇᴛʜᴏɴ ᴡɪᴛʜ 300+ ᴘʟᴜɢɪɴꜱ",
+    "logo": "https://telegra.ph/file/1a8d5e83524f7f49db0a2.jpg",
     "keywords": [
-        "telegram",
-        "telethon",
-        "telegram-bot",
-        "Ustad-op",
-        "SpamBots"
+     "telegram",
+     "userbot",
+     "userbot",
+     "modular",
+     "productivity"
     ],
-    "repository": "https://t.me/USTAD_OP",
-    "website": "https://t.me/USTAD_OP",
-    "success_url": "https://t.me/USTAD_OP",
+    "repository": "https://github.com/Itsunknown-12/TgBot",
+    "website": "https://github.com/Itsunknown-12/TgBot",
+    "success_url": "https://t.me/Zaid_Support",
+    "stack": "container",
     "env": {
-        "API_HASH": {
-            "description": "You API HASH from my.telegram.org",
-            "value": ""
-        },
-        "APP_ID": {
-            "description": "You API ID from my.telegram.org",
-            "value": ""
-        },
-        "BOT_TOKEN": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-        },
-        "BOT_TOKEN2": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-
-        },
-        "BOT_TOKEN3": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-           
-        },
-        "BOT_TOKEN4": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-            
-        },
-        "BOT_TOKEN5": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-           
-        },
-        "BOT_TOKEN6": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-            
-        },
-        "BOT_TOKEN7": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-            
-        },
-        "BOT_TOKEN8": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-            
-        },
-        "BOT_TOKEN9": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-            
-        },
-        "BOT_TOKEN10": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
-            
-        },
-        "SUDO_USERS": {
-            "description": "Owner Id",
-            "value": ""
-            
-        },
-        "HEROKU_API_KEY": {
-            "description": "Your Heroku api key to update your bot",
-            "value": ""
-            
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Your app name to Update your bot",
-            "value": ""
-            
-        }
+     "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+     },
+     "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+     },
+     "STRING_SESSION": {
+      "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@Paramatin/Lightning-Repl#main.py online.",
+      "value": ""
+     },
+      "CMD_HNDLR": {
+      "description": "Used to invoke commands, leave as it for default",
+      "value": ".",
+      "required": false
+     },
+       "COMBINED_GROUP_ID": {
+      "description": "This is all in one group id. just add @Missrose_bot to your private group and do /id",
+      "value": "",
+      "required": true
+     },
+      "LIGHTNING_ALV_IMG": {
+      "description": "To add another Alive pic, Leave blank for default. ",
+      "value": "",
+      "required": false
+     }, 
+      "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "value": "",
+      "required": true
+     },
+     "SUDO_USERS": {
+      "description": "Users you want to give access to your bot. (Don't allow unknown people)",
+      "value": "",
+      "required": false
+     },
+     "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "value": "",
+      "required": true
+     },
+     "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot. Get it else .help won't work.",
+      "value": "",
+      "required": true
+     },
+     "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot. Needed for .help to work.",
+      "value": "",
+      "required": true
+     },
+     "ALIVE_NAME": {
+      "description": "Put Your Name you can use designer fonts. ",
+      "value": "@Zaid_Updates",
+      "required": false
+     }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
-}
+    "addons": [{
+     "plan": "heroku-postgresql",
+     "options": {
+      "version": "12"
+     }
+    }]
+  }
