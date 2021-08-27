@@ -24,7 +24,7 @@
 
 ## 𝙳𝙴𝙿𝙻𝙾𝚈  🔥❤️
 
-[![Deploy](https://telegra.ph/file/0f1a48bf0bcfd01f53cf4.jpg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/TgBot)
+[![Deploy](https://telegra.ph/file/0f1a48bf0bcfd01f53cf4.jpg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/ZaidUserbot)
 
 ------------------------------------------------
 ## 𝚁𝙴𝙿𝙻 :
