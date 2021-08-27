@@ -1,1 +1,1 @@
-UstaD: python -m SpamBots
+worker: zaid.py
